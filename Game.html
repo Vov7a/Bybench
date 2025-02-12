@@ -107,9 +107,20 @@ var LZString=function(){var r=String.fromCharCode,o="ABCDEFGHIJKLMNOPQRSTUVWXYZa
 	<tw-storydata name="Game" startnode="1" creator="Twine" creator-version="2.10.0" format="SugarCube" format-version="2.37.3" ifid="12AE4473-E6D5-4035-82F4-28357DB52FC1" options="" tags="" zoom="1" hidden><style role="stylesheet" id="twine-user-stylesheet" type="text/twine-css">/* body is the passage color/bg/font */
 
 body {
-  background-color: #111;
-  color: #fff;
-  font-size: 130%;
+  /* background-color: #111; */
+  color: #fff; 
+  background-image: url(https://raw.githubusercontent.com/Vov7a/Bybench/refs/heads/main/Img/10.bmp); 
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  text-shadow: 1.41px 1.41px black, 2px 0 black, 1.41px -1.41px black,
+    0 -2px black, -1.41px -1.41px black, -2px 0 black,
+   -1.41px 1.41px black, 0 2px black;
+  font-size: 17pt;
 }
 
 html.font-Times {
@@ -136,7 +147,8 @@ p1 {
 /* h1 is the header on the sidebar */
 
 h1 {
-  color: #fff;
+  color: #fff; 
+  text-align: center
 }
 
 h3
@@ -147,7 +159,7 @@ h3
 /* a is links color/bg, a:hover is what mouse changes */
 
 a {
-  color: #aaa;
+  color: #ddd; 
   background-color: transparent;
   text-decoration: underline;
 }
@@ -196,10 +208,19 @@ p {
 }
 
 button {
-  background-color: transparent;
-  color: #fff9c3;
+  color: #fff; 
   font-weight: bold;
-  border-color: #444;
+  border-color: #fff;
+  text-shadow: 1.41px 1.41px black, 2px 0 black, 1.41px -1.41px black,
+    0 -2px black, -1.41px -1.41px black, -2px 0 black,
+   -1.41px 1.41px black, 0 2px black;
+   font-size: 14pt;
+  background-color: #fff;
+}
+
+button:hover {
+  background-color: #aaa;
+  border-color: #fff;
 }
 
 #ui-bar-tray button {
@@ -209,6 +230,11 @@ button {
 #ui-bar-tray button:disabled {
   border-color: #44444400;
 }
+
+hr {
+  border-top: 2px solid #fff;
+}
+
 
 </style><script role="script" id="twine-user-script" type="text/twine-javascript"></script><tw-passagedata pid="1" name="0" tags="" position="700,300" size="100,100">! Добро пожаловать!
 &lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. &lt;br&gt;&lt;br&gt;Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.&lt;/p&gt;
